@@ -10,14 +10,15 @@ using EFT.InventoryLogic;
 using UnityEngine;
 
 // Found in InteractionHsHandlerClass.Sort
-using GridClassEx = GClass2502;
+using GridClassEx = GridContainer;
 // Found in GClass2502.SetSearched
-using GridCacheClass = GClass1390;
-using GridManagerClass = GClass2808;
-using SortResultStruct = GStruct414<GClass2808>;
-using GridItemClass = GClass2507;
-using ItemAddressExClass = GClass2769;
-using SortErrorClass = GClass3302;
+using GridCacheClass = GClass1398;
+using GridManagerClass = GOperationResult16;
+using SortResultStruct = SOperationResult12<GOperationResult16>;
+using GridItemClass = GItem8;
+using ItemAddressExClass = GridItemAddress;
+using SortErrorClass = GInventoryError18;
+using StashGridClass = StashGrid;
 
 namespace LootingBots.Patch.Util
 {

@@ -1,6 +1,6 @@
 using System.Reflection;
 
-using Aki.Reflection.Patching;
+using StayInTarkov;
 
 using Comfort.Common;
 
@@ -10,6 +10,8 @@ using EFT.UI;
 
 using LootingBots.Patch.Components;
 using LootingBots.Patch.Util;
+
+using BotDifficultySettingsClass = Settings9;
 
 namespace LootingBots.Patch
 {

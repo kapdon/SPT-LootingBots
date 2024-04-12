@@ -9,6 +9,8 @@ using EFT.InventoryLogic;
 
 using LootingBots.Patch.Util;
 
+using HandbookClass = Handbook;
+
 namespace LootingBots.Patch.Components
 {
     public class ItemAppraiser
